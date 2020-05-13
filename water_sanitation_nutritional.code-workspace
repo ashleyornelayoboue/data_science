@@ -1,0 +1,148 @@
+{ 
+   " name " : " water_sanitation_nutritional_Table 07" ,
+   " title " : "Situation sur le bien être des populations par pays " ,
+   " description " : " On a une base de donnée qui décrit le niveau de développement humain (HDI) par pays" ,
+    " champs " : [
+
+
+        { 
+
+            " nom " : " HDI rank " ,
+            " title " : " HDI rank " ,
+            " type " : " entier " ,
+            " description " : " Classement des pays en fonction de leur indice de développement humain " ,
+            " contraintes " : {
+                " unique " : vrai
+}
+            
+        },
+
+        { 
+
+            " nom " : " Human Developpement Level" ,
+            " title " : " Human Development Level " ,
+            " type " : " chaîne de caractère" ,
+            " description " : " Le niveau de développement humain de tous les pays catégorisé par High, medium et low " ,
+            " contraintes " : {   " enum " : [
+                
+                
+                " High" , " medium " , " Low "
+
+
+            ]
+
+
+
+
+
+
+
+            }
+
+        },
+
+        { 
+
+            " nom " : " Country " ,
+            " title " : " Country" ,
+            " type " : " chaîne de caractère " ,
+            " description " : " Nom des pays " ,
+
+            " contraintes " : {
+                " requis " : vrai
+}
+
+
+        },
+
+        { 
+
+            " nom " : " Population using improved sanitation(%) 1990 " ,
+            " titre " : " Population using improved sanitation(%) 1990" ,
+            " type " : " entier " ,
+            " description " : " personne utilisant un assainissement amélioré en 1990 en pourcentage " ,
+            " contraintes " : {
+         
+                " unique " : vrai
+            }
+        },
+        { 
+
+            " nom " : " Population using improved sanitation(%) 2004 " ,
+            " title " : " Population using improved sanitation(%) 2004 " ,
+            " type " : " entier " ,
+            " description " : " personne utilisant un assainissement amélioré en 2004 en pourcentage"
+            
+        },
+        { 
+
+            " nom " : " Population using an improved water source(%) 1990 " ,
+            " title " : " Population using an improved water source(%) 1990" ,
+            " type " : " entier " ,
+            " description " : " personne utilisant une source d'eau améliorée en 1990 en pourcentage "
+        },
+
+        { 
+
+            " nom " : " Population using an improved water source (%) 2004 " ,
+            " title " : " Population using an improved water sourcce (%) 2004" ,
+            " type " : " entier " ,
+            " description " : " personne utilisant une source d'eau améliorée en 2004 en pourcentage "
+        },
+
+        { 
+
+            " nom " : " Population undernourished (% of total population) 1990/92a " ,
+            " titre " : " Population undernourished (% of total population) 1990/92a " ,
+            " type " : " réel" ,
+            " description " : " Personne sous-alimentée sur la population totale en 1990 / 92a en pourcentage "
+        },
+        { 
+
+            " nom " : " Population undernourished (% of total population) 2002/04a " ,
+            " title " : " Population undernourished (% of total population) 2002/04a" ,
+            " type " : " réel" ,
+            " description " : " Personne sous-alimentée sur la population totale en 2002/ 04a en pourcentage"
+        },
+
+          { 
+
+            " nom " : " Children under weight for age (% of children under age 5) 1996-2005b " ,
+            " titre " : " Children under weight for age (% of children under age 5) 1996-2005b " ,
+            " type " : " entier" ,
+            " description " : " enfant dont le poids est faible pour l'âge sur les enfants de moins de 5ans en 1996-2005b en pourcentage "
+        },
+
+          { 
+
+            " nom " : " Children under height for age (% of children under age 5) 1996-2005b " ,
+            " titre " : " Children under height for age (% of children under age 5) 1996-2005b " ,
+            " type " : " entier " ,
+            " description " : " enfant dont la taille est faible pour l'âge sur les enfants de moins de 5ans en 1996-2005b en pourcentage  "
+        },
+
+         { 
+
+            " nom " : " Infants with low birthweight 1998-2005b  " ,
+            " titre " : " Infants with low birthweight 1998-2005b  " ,
+            " type " : " entier " ,
+            " description " : " Nourrissons de faible poids à la naissance en 1998-2005b  "
+        }
+
+
+
+
+
+    ],
+
+    " missingValues " : [ "  " ]
+
+
+
+
+
+
+
+
+
+}
